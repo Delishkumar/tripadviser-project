@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+.navbar__logo{
+    display: flex;
+    
+}
+.navbar__logo img{
+    height: 30px;
+    width: 30px;
+}
+.navbar__option{
+    display: flex;
+    gap: 20px;
+}
+.navbar__profile{
+    display: flex;
+    gap: 10px;
+}
+.navbar__profile:hover{
+    color: black;
+    background-color: transparent;
+    border: solid 1px ;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.search__title{
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.search__content{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+
+}
+.search__content:hover{
+    
+}
+.search__in{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border:groove silver 1px;
+    border-radius: 30px;
+    width: 600px;
+    position: relative;
+    left: 370px;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    color: black;
+    flex-wrap: wrap;
+    
+}
+.search__in input{
+
+    border: none;
+    height: 100%;
+    width: 400px;
+
+
+}
+.search__in input:focus {
+     outline: none;
+}
+
+
+.search__in p{
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(35, 230, 116);
+    color: black;
+    border: transparent seagreen 1px;
+    border-radius: 18px;
+    padding: 10px;
+    position: relative;
+    left: 60px;
+    
+}
+.landscope1 img{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(204, 242, 245);
+    margin-top: 70px;
+    margin-left: 30px;
+
+    
+}
+.hiys{
+    position: relative;
+    width: 500px;
+    bottom: 380px;
+    left: 100px;
+    padding: 20px; 
+    color: rgb(100, 5, 64);
+
+}
+.landscope1__desc__page{
+    display: inline-block;
+    background-color: rgb(100, 5, 64);
+    border: solid rgb(100, 5, 64);
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+}
+.hiys h1{
+    font-size: 40px;
+    padding: 10px;
+}
+.hiys p{
+    font-size: 16px;
+    padding: 10px;
+
+}
+.poson1{
+
+    padding: 10px;
+    margin: 20px;
+}
+.poson1__images{
+    display: flex;
+    justify-content: space-around;
+    border: transparent solid 1px;
+    border-radius: 30px;
+}
+.poson1 h1,h3{
+    padding: 5px;
+    margin: 5px;
+}
+
+.poson2{
+
+    padding: 10px;
+    margin: 20px;
+}
+.poson2__container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+img{
+    border: transparent solid 1px;
+    border-radius: 20px;
+}
+.poson3{
+
+    padding: 10px;
+    margin: 20px;
+}
+.poson3__container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+
+.poson4{
+
+    padding: 10px;
+    margin: 6px;
+}
+.poson4__container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+.explore{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 150px;
+    background-color: antiquewhite;
+    width: 100%;
+    
+}
+.explore__container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 30px
+}
+.poson5{
+
+    padding: 10px;
+    margin: 20px;
+}
+.poson5__images{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    border: transparent solid 1px;
+    border-radius: 30px;
+}
+.poson5 h1,h3{
+    padding: 5px;
+    margin: 5px;
+}
+
+.poson6{
+
+    padding: 10px;
+    margin: 20px;
+}
+.poson6__images{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    border: transparent solid 1px;
+    border-radius: 30px;
+}
+.poson6 h1,h3{
+    padding: 5px;
+    margin: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(213, 226, 222);
+    width: 100%;
+}
+.container__content{
+    position: relative;
+    width: 370px;
+    top: 220px;
+    font-size: 19px;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+.container__next{
+    display: inline;
+    background-color: black;
+    color: white;
+    border: transparent black 1px;
+    border-radius: 20px;
+    padding: 13px;
+    position: relative;
+    top: 40px;
+}
+.poson7{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 40px;
+}
+.poson7__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.poson7__content{
+    height: 200px;
+    width: 280px;
+    font-size: 26px;
+    padding: 10px;
+    margin: 10px;
+    
+
+}
+.poson7__container img{
+    
+    height: 200px;
+    width: 280px;
+}
+.landscope2 img{
+    display: inline-block;
+    width: 95%;
+    background-color: rgb(204, 242, 245);
+    margin-top: 70px;
+    margin-left: 30px;
+
+    
+}
+.hiys2{
+    display: block;
+    position: relative;
+    width: 500px;
+    bottom: 380px;
+    left: 100px;
+    padding: 20px; 
+    color: rgb(100, 5, 64);
+
+}
+.landscope2__desc__page{
+    display: inline-block;
+    background-color: rgb(100, 5, 64);
+    border: solid rgb(100, 5, 64);
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+}
+.hiys2 h1{
+    font-size: 50px;
+    padding: 10px;
+}
+.hiys2 p{
+    font-size: 16px;
+    padding: 10px;
+}
+.descrption{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(126, 163, 163);
+    padding: 20px;
+    margin-bottom: 300px;
+
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 500px;
+    padding: 14px;
+}
+.cook p,h4{
+    padding: 5px;
+    
+}
