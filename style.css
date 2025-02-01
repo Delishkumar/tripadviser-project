@@ -33,6 +33,7 @@
 .navbar__profile{
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 .navbar__profile:hover{
     color: black;
@@ -159,18 +160,6 @@ margin-top: 150px;
     padding: 10px;
     margin-top: 100px;
     }
-.poson1 h1 {
-
-    margin-left: 110px;
-
-}
-.poson1 h2 {
-
-    margin-left: 110px;
-    
-}
-    
-
 
 .poson1__images{
     display: flex;
@@ -182,16 +171,7 @@ margin-top: 150px;
 }
  
 
-.poson2 h1 {
 
-    margin-left: 110px;
-
-}
-.poson2 h2 {
-
-    margin-left: 110px;
-    
-}
 .poson2{
 
     margin-top: 50px;
@@ -216,16 +196,7 @@ img{
     padding: 10px;
 }
 
-.poson3 h1 {
 
-    margin-left: 110px;
-
-}
-.poson3 h3 {
-
-    margin-left: 110px;
-    
-}
 
 .poson3{
 
@@ -246,16 +217,7 @@ img{
     padding: 10px;
 }
 
-.poson4 h1 {
 
-    margin-left: 110px;
-
-}
-.poson4 h3 {
-
-    margin-left: 110px;
-    
-}
 
 .poson4{
 
@@ -302,13 +264,8 @@ img{
 .poson5 h1 {
     margin-top: 10px;
     padding: 10px;
-    margin-left: 110px;
 
-}
-.poson5 h3 {
 
-    margin-left: 110px;
-    
 }
 
 
@@ -326,17 +283,7 @@ img{
     border-radius: 30px;
     margin-top: 20px;
 }
-.poson6 h1 {
-    padding: 10px;
-    margin-left: 110px;
-    
 
-}
-.poson6 h3 {
-
-    margin-left: 114px;
-    
-}
 .container{
     display: flex;
     justify-content: space-around;
@@ -400,17 +347,17 @@ img{
 .hiys2{
     
     position: relative;
-    bottom: 410px;
+    bottom: 250px;
     text-align: center;
-    right: 500px;
+    right: 300px;
 
 }
 .hiys2 h1,p{
     padding: 10px;
-    font-size: 22px;
+    font-size: 15px;
 }
 .hiys2 h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .landscope2__desc__page{
